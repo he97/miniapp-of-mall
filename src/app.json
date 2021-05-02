@@ -1,0 +1,103 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-panel": "@vant/weapp/panel/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-swipe-cell": "@vant/weapp/swipe-cell/index",
+    "van-submit-bar": "@vant/weapp/submit-bar/index",
+    "van-nav-bar": "@vant/weapp/nav-bar/index",
+    "van-goods-action": "@vant/weapp/goods-action/index",
+    "van-goods-action-icon": "@vant/weapp/goods-action-icon/index",
+    "van-goods-action-button": "@vant/weapp/goods-action-button/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-radio": "@vant/weapp/radio/index",
+    "van-radio-group": "@vant/weapp/radio-group/index",
+    "van-calendar": "@vant/weapp/calendar/index",
+    "van-datetime-picker": "@vant/weapp/datetime-picker/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-notice-bar": "@vant/weapp/notice-bar/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp/dropdown-item/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-area": "@vant/weapp/area/index",
+    "van-sidebar": "@vant/weapp/sidebar/index",
+    "van-sidebar-item": "@vant/weapp/sidebar-item/index",
+    "van-checkbox": "@vant/weapp/checkbox/index",
+    "van-checkbox-group": "@vant/weapp/checkbox-group/index",
+    "van-stepper": "@vant/weapp/stepper/index",
+    "van-uploader": "@vant/weapp/uploader/index",
+    "van-picker": "@vant/weapp/picker/index"
+  },
+  "pages": [
+    "pages/home-page/view-goods/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/my/main",
+    "pages/shopping/shopping_cart/main",
+    "pages/user/setting-alter-pwd/main",
+    "pages/user/setting-alter-others/main",
+    "pages/user/setting-info/main",
+    "pages/user/my/main",
+    "pages/home-page/goods-info/main",
+    "pages/user/address-alter/main",
+    "pages/user/user-address/main",
+    "pages/shopping/store/main",
+    "pages/user/userLoginTest/main",
+    "pages/commodity/submit/main",
+    "pages/purchase/purchase-page/main",
+    "pages/commodity/viewByCategory/main",
+    "pages/user/choose-address/main",
+    "pages/user/had-bought/main",
+    "pages/user/had-submit-commodities/main",
+    "pages/user/bought-commodity-info/main",
+    "pages/user/had-sell/main",
+    "pages/user/sell-commodity-info/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/home-page/view-goods/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },
+    {
+      "text": "购物车",
+      "pagePath": "pages/shopping/shopping_cart/main",
+      "iconPath": "static/tabs/shopping_cart.png",
+      "selectedIconPath": "static/tabs/shopping_cart.png"
+    }, 
+    {
+      "text": "我的",
+      "pagePath": "pages/user/my/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }],
+
+    
+    "position": "bottom"
+  }
+}
